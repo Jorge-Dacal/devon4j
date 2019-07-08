@@ -1,0 +1,5 @@
+FROM java:8
+WORKDIR /app
+COPY ./devon4j-server-bootified.war /app/
+ENTRYPOINT ["java","-jar","/app/devon4j-server-bootified.war"]
+EXPOSE 8080
