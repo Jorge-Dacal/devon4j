@@ -197,7 +197,7 @@ pipeline{
                 }
             }
         }
-        
+*/        
         stage ('Deliver application into Nexus') {
             when {
                anyOf {
@@ -215,7 +215,7 @@ pipeline{
                 }
             }
         }
-*/
+
         
 
         
