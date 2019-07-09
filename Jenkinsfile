@@ -124,7 +124,7 @@ pipeline{
                 }
             }
         }
-
+/*
         stage ('Unit Tests') {
             when {
                anyOf {
@@ -197,7 +197,7 @@ pipeline{
                 }
             }
         }
-        
+*/        
         stage ('Deliver application into Nexus') {
             when {
                anyOf {
