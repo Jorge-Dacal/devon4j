@@ -3,7 +3,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.devonfw.octest</groupId>
+    <groupId>com.devonfw</groupId>
     <artifactId>devon4j</artifactId>
     <version>0.1-SNAPSHOT</version>
   </parent>
@@ -124,7 +124,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
         <configuration>
-          <mainClass>com.devonfw.SpringBootApp</mainClass>
+          <mainClass>com.devonfw.octest.SpringBootApp</mainClass>
           <classifier>bootified</classifier>
           <finalName>${project.artifactId}</finalName>
         </configuration>
