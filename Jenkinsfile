@@ -142,7 +142,7 @@ pipeline{
                 }
             }
         }
-
+/*
         stage ('SonarQube code analysis') {
             when {
                anyOf {
@@ -197,7 +197,7 @@ pipeline{
                 }
             }
         }
-        
+*/        
         stage ('Deliver application into Nexus') {
             when {
                anyOf {
