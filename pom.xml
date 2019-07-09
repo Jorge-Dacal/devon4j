@@ -3,7 +3,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <artifactId>devon4j</artifactId>
-  <groupId>com.capgemini.octest</groupId>
+  <groupId>com.devonfw.octest</groupId>
   <version>0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>${project.artifactId}</name>
@@ -474,12 +474,12 @@
 
   <distributionManagement>
     <repository>
-      <id>nexus</id>
+      <id>pl-nexus</id>
       <name>PL Releases</name>
       <url>http://nexus3-core:8081/nexus3/repository/maven-releases</url>
     </repository>
     <snapshotRepository>
-      <id>nexus</id>
+      <id>pl-nexus</id>
       <name>PL Snapshots</name>
       <url>http://nexus3-core:8081/nexus3/repository/maven-snapshots</url>
     </snapshotRepository>
