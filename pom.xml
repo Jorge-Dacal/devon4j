@@ -474,12 +474,12 @@
 
   <distributionManagement>
     <repository>
-      <id>pl-nexus</id>
+      <id>nexus</id>
       <name>PL Releases</name>
       <url>http://nexus3-core:8081/nexus3/repository/maven-releases</url>
     </repository>
     <snapshotRepository>
-      <id>pl-nexus</id>
+      <id>nexus</id>
       <name>PL Snapshots</name>
       <url>http://nexus3-core:8081/nexus3/repository/maven-snapshots</url>
     </snapshotRepository>

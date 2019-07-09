@@ -16,7 +16,7 @@ pipeline{
     environment {
         // sonarQube
         // Name of the sonarQube environment
-        sonarEnv = "SonarQube"
+        sonarEnv = "SharesSonar"
 
         // Nexus 3
         // Maven global settings configuration ID
@@ -28,7 +28,7 @@ pipeline{
         // Docker
         dockerFileName = 'Dockerfile.ci'
         dockerRegistry = 'docker-registry-shared-services.pl.s2-eu.capgemini.com'
-        dockerRegistryCredentials = 'nexus-docker'
+        dockerRegistryCredentials = 'nexusDeployer'
         
         
 
@@ -124,7 +124,7 @@ pipeline{
                 }
             }
         }
-
+/*
         stage ('Unit Tests') {
             when {
                anyOf {
@@ -197,7 +197,7 @@ pipeline{
                 }
             }
         }
-        
+*/        
         stage ('Deliver application into Nexus') {
             when {
                anyOf {
